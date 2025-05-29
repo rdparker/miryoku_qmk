@@ -58,6 +58,7 @@
   python
   python-build
   python-xyz
+  ssh
   version-control)
 
 ;; "python-qmk" is the QMK CLI package which provides the "qmk" command.
@@ -286,6 +287,7 @@
     gawk
     grep
     less                                ; git output
+    openssh                             ; git push
     sed
 
     ;; Other tools required for build
