@@ -281,6 +281,7 @@
     bash
     coreutils
     diffutils
+    findutils                           ; Convenience not need for QMK
     gawk
     grep
     sed
