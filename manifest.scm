@@ -53,6 +53,7 @@
   flashing-tools
   gawk
   gcc
+  less
   libusb
   python
   python-build
@@ -284,6 +285,7 @@
     findutils                           ; Convenience not need for QMK
     gawk
     grep
+    less                                ; git output
     sed
 
     ;; Other tools required for build
