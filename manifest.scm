@@ -51,6 +51,7 @@
   bash
   embedded
   flashing-tools
+  gawk
   gcc
   libusb
   python
@@ -275,6 +276,14 @@
     dfu-programmer
     dfu-util
     teensy-loader-cli
+
+    ;; Pure Guix development environment
+    bash
+    coreutils
+    diffutils
+    gawk
+    grep
+    sed
 
     ;; Other tools required for build
     git
