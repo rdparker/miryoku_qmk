@@ -1,4 +1,5 @@
 ;;; GNU Guix manifest for the QMK Firmware development environment
+;;; Copyright © 2025 Ron Parker <rdparker@gmail.com>qmk
 ;;; Copyright © 2021-2023 Sergey Vlasov <sigprof@gmail.com>
 ;;; Copyright © 2022 Mark Dawson <markgdawson@gmail.com>
 ;;;
@@ -75,6 +76,7 @@
      `(("python-hid" ,python-hid)
        ("python-pyusb" ,python-pyusb)
        ("python-milc" ,python-milc)
+       ("python-wheel" ,python-wheel)
        ("python-setuptools" ,python-setuptools)
        ("python-dotty-dict" ,python-dotty-dict)
        ("python-hjson" ,python-hjson)
