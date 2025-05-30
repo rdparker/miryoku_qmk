@@ -1,0 +1,11 @@
+# Copyright 2025 Ron Parker
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build My Moonlander Configuration'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/my-main.yml
+    with:
+      keyboard: '["moonlander"]'
