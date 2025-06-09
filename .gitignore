@@ -1,9 +1,13 @@
+# C Language Server cache
+.ccls-cache
+
 # Junk files
 *.bak
 *.swp
 *~
 .DS_Store
 ._*
+\#*#
 
 # Merge files
 *.orig

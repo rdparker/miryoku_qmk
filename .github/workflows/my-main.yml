@@ -1,0 +1,11 @@
+# Copyright 2025 Ron Parker
+# https://github.com/manna-harbour/miryoku
+
+name: 'My Main'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      mapping: '["MIRYOKU_EXTRA=QWERTY,MIRYOKU_TAP=QWERTY"]'

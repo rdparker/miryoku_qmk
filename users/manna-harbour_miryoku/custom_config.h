@@ -1,3 +1,4 @@
+// Copyright 2025 Ron Parker
 // Copyright 2019 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
@@ -5,3 +6,4 @@
 
 #pragma once
 
+#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
